@@ -1,0 +1,13 @@
+body {
+height: 100vh;
+background-color:
+darkblue;
+display: grid;
+justify-content: center;
+transition: background-color 1s;
+}
+
+rive-canvas{
+    justify-content: center;
+
+}
