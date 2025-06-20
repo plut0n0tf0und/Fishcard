@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rive Animation</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+    }
+ 
+  </style>
+</head>
+<body>
+  <canvas id="rive-canvas" width="1000" height="750"></canvas>
+  <script src="https://unpkg.com/@rive-app/canvas@2.0.0"></script>
+  <script>
+    new rive.Rive({
+      src: "blue_sea.riv",
+      canvas: document.getElementById("rive-canvas"),
+      autoplay: true,
+    stateMachines: ["State Machine 1"],
+
+    });
+  </script>
+</body>
+</html>
